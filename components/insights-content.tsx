@@ -8,7 +8,7 @@ export function InsightsContent() {
       <div className="max-w-6xl mx-auto px-4 md:px-8 py-12">
         <div className="mb-8 animate-in fade-in-up text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-2 text-balance">
-            Phân Tích AI
+            Báo Cáo Project
           </h1>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
             Tổng quan sử dụng AI trong dự án "FairTrade Tycoon" — vai trò, công
@@ -284,6 +284,26 @@ export function InsightsContent() {
                   "human-in-the-loop" với lưu trữ prompt + kết quả + chỉnh sửa
                   để minh bạch và tái sử dụng.
                 </p>
+              </div>
+            </CardContent>
+          </Card>
+          {/* References */}
+          <Card className="bg-card/70 backdrop-blur-sm shadow md:col-span-3 h-full">
+            <CardHeader>
+              <CardTitle className="text-lg">Tài liệu tham khảo</CardTitle>
+            </CardHeader>
+            <CardContent className="flex flex-col h-full">
+              <div className="flex-1">
+                <ul className="list-disc ml-5 text-foreground/80 space-y-2">
+                  <li>
+                    Giáo trình Kinh tế chính trị Mác – Lênin, NXB Chính trị quốc
+                    gia Sự thật, 2021, trang 177 – 187.
+                  </li>
+                  <li>Văn kiện Đại hội XIII Đảng Cộng sản Việt Nam.</li>
+                  <li>
+                    Báo cáo KT-XH Việt Nam 2021-2025 – Bộ Kế hoạch và Đầu tư.
+                  </li>
+                </ul>
               </div>
             </CardContent>
           </Card>

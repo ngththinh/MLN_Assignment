@@ -37,11 +37,11 @@ const ctaItems: CTAItem[] = [
   },
   {
     id: "insights",
-    title: "Xem phân tích AI",
+    title: "Xem Báo Cáo Project",
     description:
-      "Nhận feedback từ AI về cách bạn quản lý doanh nghiệp và các công việc của sinh viên",
+      "Nhận báo cáo và phân tích về cách bạn quản lý doanh nghiệp và các công việc của sinh viên",
     icon: "🤖",
-    btnText: "Xem phân tích",
+    btnText: "Xem báo cáo",
     href: "/insights",
     color: "accent",
   },

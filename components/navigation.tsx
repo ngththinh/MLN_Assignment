@@ -10,7 +10,7 @@ export function Navigation() {
     { id: "home", label: "Trang chủ", href: "/" },
     { id: "learning", label: "Bài học", href: "/learning" },
     { id: "game", label: "Trò chơi", href: "/game" },
-    { id: "insights", label: "Phân tích AI", href: "/insights" },
+    { id: "insights", label: "Báo Cáo Project", href: "/insights" },
   ];
 
   return (
